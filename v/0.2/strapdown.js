@@ -377,9 +377,9 @@ var PR=win['PR']={'createSimpleLexer':createSimpleLexer,'registerLangHandler':re
   var linkEl = document.createElement('link');
   if (remote) {
     if (theme === 'bootstrap') {
-      linkEl.href = originBase + '//netdna.bootstrapcdn.com/twitter-bootstrap/latest/css/bootstrap.min.css';
+      linkEl.href = '//netdna.bootstrapcdn.com/twitter-bootstrap/latest/css/bootstrap.min.css';
     } else {
-      linkEl.href = originBase + '//netdna.bootstrapcdn.com/bootswatch/latest/' + theme + '/bootstrap.min.css';
+      linkEl.href = '//netdna.bootstrapcdn.com/bootswatch/latest/' + theme + '/bootstrap.min.css';
     }
   } else {
     linkEl.href = originBase + '/themes/' + theme + '.min.css';
